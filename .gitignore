@@ -1,0 +1,34 @@
+# build products...
+*.py[co]
+build
+jupyterlab_workbench.egg-info
+# Emacs backup and autosave files...
+*~
+.\#*
+\#*
+# RPM related...
+MANIFEST
+dist
+rpm-build
+# Eclipse/PyDev related...
+.project
+.pydevproject
+# PyCharm related...
+.idea
+#IntelliJ IDEA stuff..
+*.iml
+#VSCode stuff..
+.vscode/
+# Mac OS X related...
+.DS_Store
+# Sublime related...
+*.sublime-project
+*.sublime-workspace
+# Vim swap related...
+*.swp
+*.swo
+[._]*.un~
+# jupyter related...
+jupyterhub_config.py
+jupyterhub.sqlite
+jupyterhub-proxy.pid
