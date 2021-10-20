@@ -1,9 +1,16 @@
+from pathlib import Path
 from setuptools import setup
+
+
+DIRECTORY = Path(__file__).parent
+DESCRIPTION = (DIRECTORY / "README.md").read_text()
+
 
 setup(
     name='jupyterlab-workbench',
-    version='0.1.0',
-    description='JupyterLab Workbench',
+    version='0.1.2',
+    long_description=DESCRIPTION,
+    long_description_content_type='text/markdown',
     url='https://github.com/enlznep/pyexample',
     author='Ray Marc Marcellones (XTREME-D Inc)',
     author_email='devops@xtreme-d.net',
