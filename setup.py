@@ -8,7 +8,7 @@ DESCRIPTION = (DIRECTORY / "README.md").read_text()
 
 setup(
     name='jupyterlab-workbench',
-    version='0.1.2',
+    version='0.1.3',
     long_description=DESCRIPTION,
     long_description_content_type='text/markdown',
     url='https://github.com/enlznep/pyexample',
